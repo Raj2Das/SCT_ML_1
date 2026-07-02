@@ -1,18 +1,85 @@
-Recently, I completed a House Price Prediction project using Linear Regression.
+# House Price Prediction Using Linear Regression
 
-The objective of this project was to build a model capable of predicting house prices based on factors such as area, number of bedrooms, and number of bathrooms.
+## Overview
 
-While working on this project, I gained practical experience in data preprocessing, feature selection, model training, and performance evaluation. I also explored data visualization techniques to better understand the relationship between different housing features and price.
+This project implements a Machine Learning model using Linear Regression to predict house prices based on:
 
-Technologies used:
+* Area
+* Number of Bedrooms
+* Number of Bathrooms
+
+The model is trained using a housing dataset and evaluated using R² Score and Mean Squared Error (MSE).
+
+## Technologies Used
 
 * Python
 * Pandas
+* NumPy
 * Scikit-Learn
 * Matplotlib
 
-This project helped me strengthen my understanding of how machine learning models are built and evaluated using real-world data. It was a valuable learning experience and another step forward in my journey of exploring data science and machine learning.
+## Dataset Features
 
-I look forward to working on more projects that allow me to apply these concepts and continue improving my skills.
+* Area
+* Bedrooms
+* Bathrooms
+* Price (Target Variable)
 
-#MachineLearning #DataScience #Python #LinearRegression #ScikitLearn #DataAnalysis #Programming #Learning
+## Project Workflow
+
+1. Load and explore the dataset
+2. Select features and target variable
+3. Split data into training and testing sets
+4. Train Linear Regression model
+5. Predict house prices
+6. Evaluate model performance
+7. Visualize results using graphs
+
+## Model Evaluation
+
+* R² Score
+* Mean Squared Error (MSE)
+
+## Generated Visualizations
+
+* Area vs House Price
+* Bedrooms vs House Price
+* Bathrooms vs House Price
+* Actual vs Predicted House Prices
+
+## Project Structure
+
+HousePricePrediction/
+├── house_price.csv
+├── linear_regression.py
+├── graphs/
+│   ├── area_vs_price.png
+│   ├── bedrooms_vs_price.png
+│   ├── bathrooms_vs_price.png
+│   └── actual_vs_predicted.png
+└── README.md
+
+## How to Run
+
+1. Clone the repository
+2. Install dependencies:
+
+pip install pandas numpy scikit-learn matplotlib
+
+3. Run the project:
+
+python linear_regression.py
+
+## Learning Outcomes
+
+This project demonstrates:
+
+* Data preprocessing
+* Feature selection
+* Linear Regression modeling
+* Model evaluation
+* Data visualization
+
+## Author
+
+Developed as part of a Machine Learning internship task.
